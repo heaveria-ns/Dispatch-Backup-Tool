@@ -10,3 +10,6 @@ Currently, it will only work on Windows. Windows 10, preferably. Support for mac
 
 ## Help/Feedback:
 The author is [Heaveria](https://www.nationstates.net/nation=heaveria). I am always open to feedback and any concerns.
+
+## Miscellaneous Info:
+This application was built with Electron (using a mix of HTML, CSS, and JavaScript). The output was packed using Electron-Forge to make the executable.
