@@ -1,4 +1,5 @@
 # [BETA] Dispatch Backup Tool for NationStates
+****Use at your own risk***.
 ## Features:
 - [x] Automatic throttling (650 ms)
 - [x] Simple interface
