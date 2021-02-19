@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dispatch Backup Tool</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/index.css" >
+</head>
+
+<header>
+    <button id="headerButton">Dispatch Backup Tool</button>
+</header>
+
+<body>
+<section class="form">
+    <div class="firstText">
+        <label for="uAgent" class="instruction">User-Agent</label>
+        <label for="nName">Nation Name</label>
+    </div>
+    <div class="firstHint">
+        <p>ℹ Typically your main nation.</p>
+        <p>ℹ Without the prefix.</p>
+    </div>
+    <div class="firstInput">
+        <input type="text" name="uAgent" id="uAgent">
+        <input type="text" name="nName" id="nName">
+    </div>
+    <div class="secondText">
+        <label for="throttle" class="instruction" id="throttleText">Throttle (ms)</label>
+        <label for="hidden" class="instruction"></label>
+    </div>
+    <div class="secondInput">
+        <input type="text" class="throttle" name="throttle" id="throttle" value="650">
+        <input type="hidden" name="hidden" id="hidden" value="650">
+    </div>
+</section>
+<section class="submit">
+    <div class="submitDiv">
+        <button class="submitButton" id="submitButton" onclick="onSubmit(); return false">Submit</button>
+
+    </div>
+</section>
+</body>
+
+<footer>
+    <progress id="progress" max="100" value="0"></progress>
+</footer>
+
+<script src="js/index.js"></script>
+</html>
