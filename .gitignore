@@ -1,0 +1,3 @@
+# Project exclude paths
+/node_modules/
+/out/dispatch_gui-win32-x64/resources/app/node_modules/

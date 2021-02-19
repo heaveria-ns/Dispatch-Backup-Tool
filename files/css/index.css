@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: #00305b;
+    font-family: sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button {
+    background-color: #00305b;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+}
+/*----END OF CONFIG----*/
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+:root {
+    --input-border: #8b8a8b;
+    --input-focus-h: 245;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+}
+
+input {
+    border-radius: 2px;
+    border: none;
+    margin: 0 25px 30px 25px;
+    padding-left: 5px;
+    height: 25px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+input:focus, input:hover, .submitButton:focus, .submitButton:hover {
+    border-color: hsl(
+            var(--input-focus-h),
+            var(--input-focus-s),
+            var(--input-focus-l)
+    );
+    box-shadow: 0 0 0 3px
+    hsla(
+            var(--input-focus-h),
+            var(--input-focus-s),
+            calc(var(--input-focus-l) + 40%), 0.8
+    );
+    outline: 3px solid transparent;
+}
+
+.submitButton:disabled {
+    background-color: #8b8a8b;
+}
+
+label {
+    margin: 0 72px  5px 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.firstText {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.firstHint {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -10px;
+
+
+    font-size: 13px;
+    color: white;
+}
+
+.firstHint p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.firstInput {
+    display: flex;
+    flex-flow: row;
+}
+
+#throttleText {
+    margin-left: 170px;
+}
+
+#throttle {
+    margin-top: 5px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submitDiv {
+    display: flex;
+    flex-flow: column;
+}
+
+.submitButton {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    color: #00305b;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#progress {
+    margin-top: 15px;
+    height: 30px;
+    width: 50vw;
+}
